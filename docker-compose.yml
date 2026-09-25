@@ -19,10 +19,7 @@ services:
       - mysql
     restart: unless-stopped
   mysql:
-    build:
-      context: .
-      dockerfile: Dockerfile.mysql
-    image: mysql-local:1.0.0
+    image: mysql:8.0
     container_name: mysql-container
     ports:
       - "3306:3306"

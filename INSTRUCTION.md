@@ -13,7 +13,7 @@ https://hub.docker.com/repository/docker/sancho1605/mysql-local/general - mysql 
 docker compose up -d
 `
 
-## 3. Open in browser: http://localhost:8000
+## 3. Open in browser: http://localhost:8080
 
 
 ## 4. Run command to stop and delete compose containers
